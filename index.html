@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./img/assets/png/625102.png" />
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!--<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">-->
+        <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <title>Luca Strumía's portfolio </title>
+
+    </head>
+    <body>
+        <header class="header">  
+         
+            <h3 class="title"><span class="typed"></span></h3 >
+            <h3 class="sub-title"><span class="typed1"></span></h3>
+        </header>
+        <aside class="circles">
+            <a href="#sobremi" class="circle">Sobre Mi</a>
+            <a href="#proyectos" class="circle">Proyectos</a>
+            <a href="#habilidades" class="circle">Habilidades</a>
+            <a href="#contacto" class="circle">Contacto</a>
+            
+        </aside>
+        <section class="aboutme-container">
+            <a name="sobremi"></a>
+            <section class="aboutme">
+                <h2 class="about-title">Sobre Mi</h2>    
+                <p class="">Hola! soy <b class="text">Luca Strumía</b> soy Frontend Developer viviendo en Río Cuarto, Córdoba. Estudiante de la Universidad Nacional de Río Cuarto de Analista en Computación, desde hace tiempo me intereso el desarrollo Frontend, a través de distintos cursos aprendí, <b class="text">HTML, CSS, y JavaScript</b>, actualmente estudiando <b class="text">React</b>. Tengo muchas ganas trabajar en equipo, de aprender y de mejorar técnicas de desarrollo mas eficientes.</p>    
+            </section>
+            <div class="list">
+                <h3 class="title-list">Formacion</h3>
+                <h4 class="subtitle-list">Codigo Facilito</h4>
+                <ul class="list-items">
+                     <li >Professional web development course</li>
+                     <li>In-depth css course</li>
+                     <li>New professional JavaScript course</li>
+                </ul>
+                <h4 class="subtitle-list">Udemy</h4>
+                <ul class="list-items">
+                    <li>Python without borders: HTML, CSS, Flask and MySQL</li>
+                    <li>The Complete ReactJs Course - Basics to Advanced (2021)</li>
+                    <li>Modern JavaScript for React JS - ES6.</li>
+                    <li>Complete Responsive Web Development: 4 courses in 1</li>
+                </ul>
+            </div>
+
+        </section>
+        <div class="bot"></div>
+        <section class="proyects">
+            <a name="proyectos"></a>
+            <h2 class="proyects-title">Proyectos</h2>
+                <div class="phone">
+                    <div class="cam"></div>
+                    <div class="glass">
+                        <header class="top">
+                            <div class="time">12:00</div>
+                            <div></div>
+                            <div></div>
+                            <div class="">
+                                <i class="fas fa-stopwatch"></i>
+                                <i class="fas fa-battery-three-quarters"></i>
+                            </div>
+                        </header>
+                       <!-- <a class="icon hov howarts ">
+                            <img src="img/logo.jpg" alt="" class="logo">
+                            <p>Howarts</p>       
+                        </a>
+                        <section class="modal-how  ">
+                            <div class="modal__container-how">
+                               <img src="img/logo.jpg" alt="" class="modal__image">
+                               <h2 class="modal__title">Howarts</h2>
+                               <p class="modal__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, earum quis? Molestiae unde commodi quo, dolore, assumenda quas dicta nihil ullam rerum quibusdam maxime alias quidem non magni architecto quod.</p>
+                            <a href="" class="modal__close">Cerrar</a>
+                            </div>
+                        </section>-->
+                        <a class="icon-calc hov">
+                            <img src="img/descargar.png" alt="" class="logo" style="position: relative; left: -10px;">
+                            <p style="position: relative;/* margin: 0px -28px 0px 0px; */right: 4px;">Calculator</p>
+                        </a>
+                        <section class="modal-calc">
+                            <div class="calculadora">
+                                <div class="display">
+                                    <div id="valor-anterior"></div>
+                                    <div id="valor-actual"></div>
+                                </div>
+                                <button class="col-1" onclick="display.borrarTodo()">C</button>
+                                <button onclick="display.borrar()">&larr;</button>
+                                <button class="operador" value="dividir">%</button>
+                                <button class="numero">7</button>
+                                <button class="numero">8</button>
+                                <button class="numero">9</button>
+                                <button class="operador" value="multiplicar">X</button>
+                                <button class="numero">4</button>
+                                <button class="numero">5</button>
+                                <button class="numero">6</button>
+                                <button class="operador" value="restar">-</button>
+                                <button class="numero">1</button>
+                                <button class="numero">2</button>
+                                <button class="numero">3</button>
+                                <button class="operador col-2" value="sumar">+</button>
+                                <button class="numero">0</button>
+                                <button class="numero">.</button>
+                                <button class="operador" value="igual">=</button>
+                                <a href="" class="modal__close-calc">x</a>
+                            </div>
+                        </section>
+                        <a class="icon-belica">
+                            <img src="img/assets/png/Belica.png" alt="" class="logo">
+                            <p>Belica</p>  
+                        </a>
+                        <section class="modal-belica">
+                            <div class="modal__container-bel">
+                                <img src="img/assets/png/Belica.png" alt="" class="modal__image">
+                                <h2 class="modal__title">Belica</h2>
+                                <p class="modal__paragraph">Tienda de Joyas, llamada Belica, donde hay HTML, CSS y JS, uso de sliders y modals, mas adelante un sistema de busqueda y de carrito, implementando una base de datos en MySQL</p>
+                             <a href="" class="modal__close-bel">Cerrar</a>
+                             </div>
+                        </section>
+                        <a class="icon-amazon">
+                            <img src="img/assets/svg/amazon-icon-1.svg" alt="" class="logo">
+                            <p>Amazon</p>
+                        </a>
+                        <section class="modal-amazon">
+                            <div class="modal__container-amz">
+                                <img src="img/assets/svg/amazon-icon-1.svg" alt="" class="modal__image">
+                                <h2 class="modal__title">Amazon</h2>
+                                <p class="modal__paragraph">Usando React y haciendo un curso hice una emulacion con varias funciones como cambiar de color.</p>
+                             <a href="" class="modal__close-amz">Cerrar</a>
+                             </div>
+                        </section>
+                        <a class="icon"></a>
+                        <a class="icon"></a>
+                        <a class="icon"></a>
+                        <a class="icon"></a>
+                        <a class="icon"></a>
+                        <a class="icon"></a>
+                        <footer class="bottom">
+                            <div><i class="fas fa-bars"></i></div>
+                            <div><i class="far fa-square"></i></div>
+                            <div><i class="fas fa-greater-than"></i></div>
+                        </footer>
+                    </div>
+                </div>
+        </section>
+        <div class="bot"></div>
+        <section class="habilidades">
+            <a name="habilidades"></a>
+            <h2 class="proyects-title">Habilidades</h2>
+            <div class="cont">
+                <!--<div class="container">
+                    <img src="img/logo.jpg" alt="" class="how-img-logo">
+                    <h2 class="title-container">Howarts</h2>
+                    <div class="leng">
+                        <div class="img-sub_logo">
+                            <img src="./img/html.png" alt="">
+                        </div>
+                        <div class="img-sub_logo">
+                            <img src="./img/CSS-Logo.png" alt="">
+                        </div>
+                        <div class="img-sub_logo">
+                            <img src="./img/js.png" alt="">
+                        </div>
+                        <div class="img-sub_logo">
+                            <img src="./img/spring.png" alt="">
+                        </div>
+                    </div>
+                </div>-->
+                <div class="container">
+                    <img src="img/descargar.png" alt="" class="how-img-logo">
+                    <h2 class="title-container">Calculadora</h2>
+                    <div class="leng">
+                        <div class="img-sub_logo">
+                            <img src="./img/html.png" alt="">
+                        </div>
+                        <div class="img-sub_logo">
+                            <img src="./img/CSS-Logo.png" alt="">
+                        </div>
+                        <div class="img-sub_logo">
+                            <img src="./img/js.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="img/assets/png/Belica.png" alt="" class="how-img-logo">
+                    <h2 class="title-container">Belica</h2>
+                    <div class="leng">
+                        <div class="img-sub_logo">
+                            <img src="./img/html.png" alt="">
+                        </div>
+                        <div class="img-sub_logo">
+                            <img src="./img/CSS-Logo.png" alt="">
+                        </div>
+                        <div class="img-sub_logo">
+                            <img src="./img/js.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="img/assets/svg/amazon-icon-1.svg" alt="" class="how-img-logo">
+                    <h2 class="title-container">Amazon</h2>
+                    <div class="leng">
+                        <div class="img-sub_logo">
+                            <img src="./img/assets/svg/reactjs-ar21.svg" alt="">
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="bot"></div>
+        <section class="contacto">
+            <a name="contacto"></a>
+            <h2 class="contact-title">Contacto</h2>
+            <div class="contac-container">
+                <a class="contacto-icon" href="https://www.linkedin.com/in/luca-strumía-9534b5172/">
+                    <div class="contacto-icon img-sub_logo">    
+                        <img src="./img/assets/svg/github_git_icon_145985.svg" class="git-logo">
+                        <p>LucaStrumia</p>
+                    </div>
+                </a>
+                <a class="contacto-icon" >
+                    <div class="contacto-icon img-sub_logo">
+                        <img src="./img/assets/svg/mobilephone_79875.svg" class="phone-logo">
+                        <p class="number-phone">3584397037</p>
+                    </div>
+                </a>
+                <a class="contacto-icon" >
+                    <div class="contacto-icon img-sub_logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" class="gmail-logo">
+                        <p class="gmail">lswork000@gmail.com</p>
+                    </div>
+                </a>
+                <a class="contacto-icon" href="https://www.linkedin.com/in/luca-strumía-9534b5172/">
+                    <div class="contacto-icon img-sub_logo">
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="lkd-logo">
+                        <p class="name">Luca Strumía</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script><!--PONER H SI O SI EN HTTPS-->
+        <script src="js/animation-let.js"></script>
+        <script src="js/phone.js"></script>
+        <script src="js/display.js"></script>
+        <script src="js/calculadora.js"></script>
+        <script src="js/main-calculadora.js"></script>
+    </body>
+</html>
