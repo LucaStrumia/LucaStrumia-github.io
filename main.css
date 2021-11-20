@@ -399,7 +399,7 @@ background-size: cover;
         font-size: 2.9em;
     }
     .aboutme {
-        height: 1018px;
+        height: 1065px;
         width: 909px;
         font-size: 3.6em;
     }
@@ -1361,7 +1361,7 @@ button:focus{
         font-size: 75px;
     }
 }
-}
+
 @media screen and (min-width:2560px){
     .contact-title {
         font-size: 7em;
